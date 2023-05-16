@@ -20,5 +20,5 @@ jobs:
     - uses: actions/checkout@v3
     
     - name: Build the Docker image
-      working-directory: helloworld-demo-python
+      working-directory: .
       run: docker build . --file Dockerfile --tag helloworld-demo-python:$(date +%s)
