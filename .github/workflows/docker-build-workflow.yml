@@ -2,7 +2,7 @@ name: docker-build-workflow
 
 on:
   push:
-    branches: [ main ] #none # 
+    branches: [ main,master ] #none # 
   pull_request:
     branches: none # [ main ]
 
